@@ -1,0 +1,149 @@
+.search-bar{
+    outline: black;
+    background-color: #eeeeee; 
+    width: 30%;   /* Permet d'ajuster la largeur du champ de saisie à 100% */
+    /* font-family: Lato;   Police du texte */
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-image-trombi{
+    margin-top: 8px;
+    /* outline: 0.1em solid red; */
+    border: solid, black
+}
+
+.card-information-trombi{
+    font-size: 9px;
+    /* outline: black; */
+    position:absolute;
+    display:none;
+    text-align: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 5%;
+}
+
+.card:hover .card-information-trombi {
+    display:block;
+}
+    
+.card:hover .displayImg-trombi {
+    opacity:0.5;
+    cursor: pointer;
+}
+
+.displayImg-trombi{
+    width: 150px;
+    height: 150px;
+    /* border: solid black 2px; */
+    border-radius: 70%;
+    border: 3px yellow solid ;
+}
+
+#action{
+    display: block;
+    margin : auto;
+}
+
+.card-action >.edit {
+    color: #FFC107;
+}
+
+.card-action >.delete {
+    color: rgb(228, 10, 10);
+}
+
+.tales {
+    width: 700px;
+  }
+.carousel-inner{
+    width:700px;
+    max-height: 700px ;
+  }
+.Jumbotron{
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    font-size: larger;
+    margin : auto;
+    background-position: center;
+    position: center;
+}
+#carouselExampleSlidesOnly{
+    width:700px;
+    max-height: 1200px ;
+    margin: 0 auto;
+    background-position: center;
+    position: center;
+  }
+
+  #butt01{
+    width:110px;
+    line-height:30px; 
+    font-size: medium;
+    background : rgb(0, 132, 255);
+    font-style: italic;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0;
+	border-radius: 0;
+	padding: 0;
+	margin: 0 auto;
+	display: block;
+  }
+
+  #butt01:hover {
+    background-color:#D3D3D3;
+
+  }
+
+.Jumbotron{
+    background: linear-gradient(to bottom, #000428, #004e92);
+
+}
+
+ 
+
+#myTitle {
+	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/6963bbf342d87b3a2150bd8f59682b89.jpg);
+  	-webkit-background-clip: text;
+	background-size: contain;
+	width: 200%;
+	text-align: center;
+	color: transparent;
+    font-weight: 500;
+    text-decoration: underline rgb(104, 177, 206)
+}
+
+@keyframes shine {
+	0% {background-position: -100%;}
+	100% {background-position: 100%;}
+}
+
+
+
+
+
+/* Not needed for demo */
+
+@font-face {
+	font-family:'frozen'; 
+	src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Ice%20kingdom%20-%20Bold%20-%20Por%20Kustren.woff');
+}
+
+Jumbotron {
+	height: 80px;
+}
+
+#myTitle {
+	top: 25px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: relative;
+	font-size: 5vw;
+	margin: 0;
+	font-family: 'frozen', serif;
+    font-weight: 100;
+}
+ 

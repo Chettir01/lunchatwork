@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 70px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 25px;
+  color: white;
+}
+
+.App-nav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.App-title {
+  font-size: 20px;
+}
+
+.App-intro {
+  font-size: large;
+}
+.nav-link{
+  color: #000428;
+  font-size: large;
+  font-weight: bolder;
+  width:170px;
+  line-height:40px; 
+  height: 40;
+}
+
+a {
+  margin: auto;
+  font-size: medium;
+}
+
+ul {
+  padding:0;
+  margin:0;
+  list-style-type : none;
+  display: inline
+  }
+ li {
+  margin-left:20px;
+  float:left; 
+  }
+ ul li a {
+  display:grid;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/6963bbf342d87b3a2150bd8f59682b89.jpg);
+  color:black;
+  text-align:center;
+  padding:10px;
+  border:2px solid;
+  border-color:#DCDCDC #696969 #696969 #DCDCDC;
+  font-size: medium;
+  font-style: italic;
+  width:150px;
+  height: 10;
+  line-height:10px; 
+  font-family: 'Times New Roman', Times, serif;
+  }
+ ul li a:hover {
+  background-color:#D3D3D3;
+  border-color:#696969 #DCDCDC #DCDCDC #696969;
+  } 
+nav {
+  background-position: center;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+

@@ -1,0 +1,55 @@
+.search-bar{
+    outline: black;
+    background-color: #eeeeee; 
+    width: 30%;   /* Permet d'ajuster la largeur du champ de saisie à 100% */
+    /* font-family: Lato;   Police du texte */
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trombi-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: rgb(200, 204, 207); */
+}
+
+.card-image-trombi{
+    margin-top: 8px;
+    /* outline: 0.1em solid red; */
+}
+
+.card-information-trombi{
+    font-size: 9px;
+    /* outline: black; */
+    position:absolute;
+    display:none;
+    text-align: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 5%;
+}
+
+.card:hover .card-information-trombi {
+    display:block;
+}
+    
+.card:hover .displayImg-trombi {
+    opacity:0.5;
+    cursor: pointer;
+}
+
+.displayImg-trombi{
+    width: 150px;
+    height: 150px;
+    /* border: solid black 2px; */
+}
+
+.card-action >.edit {
+    color: #FFC107;
+}
+
+.card-action >.delete {
+    color: rgb(201, 10, 10);
+}

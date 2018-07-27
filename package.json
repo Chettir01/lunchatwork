@@ -1,0 +1,37 @@
+{
+  "name": "homebridge-arthur",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "auth0-js": "^9.6.1",
+    "axios": "^0.18.0",
+    "base-64": "^0.1.0",
+    "base64-img": "^1.0.4",
+    "bootstrap": "^4.1.1",
+    "es6-shim": "^0.35.3",
+    "jquery": "^3.3.1",
+    "moment": "^2.22.2",
+    "react": "^16.3.2",
+    "react-avatar-edit": "^0.5.10",
+    "react-bootstrap": "^0.32.1",
+    "react-calendar": "^2.16.0",
+    "react-datepicker": "^1.5.0",
+    "react-dom": "^16.3.2",
+    "react-form": "^3.5.5",
+    "react-navigation": "^2.0.1",
+    "react-router-dom": "^4.3.0-rc.3",
+    "react-scripts": "1.1.4",
+    "reactstrap": "^6.3.0",
+    "whatwg-fetch": "^2.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "install-peers": "^1.0.2",
+    "popper.js": "^1.14.3"
+  }
+}
